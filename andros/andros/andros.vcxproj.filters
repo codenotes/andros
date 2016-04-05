@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4b83adae-b4b8-4e2d-964d-a673bf95e2db}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{dc393536-d29c-4bf1-91c0-6d6d7fe68a4a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{9d547948-fb03-4207-bd6d-0505f7751d5f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{3750b516-b610-4cc3-97e0-416a0bfe213c}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\com">
+      <UniqueIdentifier>{9d8d3d6b-99f3-4469-b92c-86cfd03bbe98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb">
+      <UniqueIdentifier>{91d57897-c4a6-4f32-8479-5c36c37128d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb\example">
+      <UniqueIdentifier>{b3101ff0-c5dd-42eb-84a1-c4b6289095e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\visualgdb\example\andros">
+      <UniqueIdentifier>{5015c524-15de-4fe5-bf97-a89df1916d97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="src\com\visualgdb\example\andros\andros.java">
+      <Filter>Java Source Files\com\visualgdb\example\andros</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rosstuff.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\andros.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
