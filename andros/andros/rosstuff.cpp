@@ -3,9 +3,9 @@
 void test()
 {
 	int argc;
-	char** argv;
-
+	std::string s;
+	char **argv;
 	
-	ros::init(argc, argv, "my_node_name", ros::init_options::NoSigintHandler);
+	ros::init(argc, argv, s,0);//, ros::init_options::NoSigintHandler);
 
 }
